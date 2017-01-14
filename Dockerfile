@@ -4,6 +4,8 @@ MAINTAINER Yusen QIN qin.yusen@gmail.com
 EXPOSE 8080
 EXPOSE 5001
 
+USER root
+
 RUN apt-get update
 
 RUN apt-get install -y openssh-server
