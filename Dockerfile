@@ -1,8 +1,8 @@
-FROM jenkins
+FROM jenkins:2.32.1
 MAINTAINER Yusen QIN qin.yusen@gmail.com
 
 EXPOSE 8080
-EXPOSE 5001
+EXPOSE 50001
 
 USER root
 
